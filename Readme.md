@@ -17,8 +17,19 @@ git diff - changes made on the repository since last commit
 git diff --name-only - names of the files changed on the repository
 
 git checkout <file> - if the selected file is  unstaged, this command undo changes made since last commit
-git reset Head <file> - removes file from staged status
-git reset --soft <hash> - undo commit right after selected commit(hash) and return files to stage
-git reset --mixed <hash> - undo commit right after selected commit and return files to modified status (before staged)
-git reset --mixed <hash> - undo commit since last commit(hash)
 
+git reset Head <file> - removes file from staged status
+
+git reset --soft <hash> - undo commit right after selected commit(hash) and return files to stage
+
+git reset --mixed <hash> - undo commit right after selected commit and return files to modified status (before staged)
+
+git reset --hard <hash> - undo commit since last commit(hash)
+
+git checkout -b branch-name - creates a new branch
+
+git checkout branch-name - switch to branch
+
+git branch - show all the branchs and which one is being used
+
+git branch -D branch-name - delete branch
