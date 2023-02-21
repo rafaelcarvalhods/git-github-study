@@ -33,3 +33,9 @@ git checkout branch-name - switch to branch
 git branch - show all the branchs and which one is being used
 
 git branch -D branch-name - delete branch
+
+#Merge
+git merge "branch-name" - Inserts changes in the default branch respecting chronological time that they were made and creates a new commit to merge branches
+
+#Rebase
+git rebase branch-name - Inserts changes in the default branch and add only one commit on the top of the commits list
